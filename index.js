@@ -5,7 +5,7 @@ const cors = require('cors');
 const app = express();
 
 app.use(cors({
-  origin: 'https://todo-koyal.netlify.app/',
+  origin: 'https://todo-koyal.netlify.app',
   credentials: true
 }));
 app.use(express.json());
